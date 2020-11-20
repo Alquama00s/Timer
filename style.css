@@ -1,6 +1,7 @@
 body{
     color: whitesmoke;
     background-color: royalblue;
+    align-content: center;
 }
 @font-face{
     font-family: 'timer';
@@ -8,17 +9,17 @@ body{
 }
 #currtimer{
     font-family: 'timer';
-    width: 70%;
+    width: auto;
     padding: 5%;
-    font-size: 80px;
+    font-size: 30px;
     text-align:center;
-    position:fixed;
+    position:absolute;
     top: 20%;
-    left: 18%;
+    left: 0;
 }
 #chours,#cminutes,#cseconds,.csep{
-    width: 125px;
-    height: 125px;
+    width: 50px;
+    height: 50px;
     background-color: white;
     color: royalblue;
     float: left;
@@ -31,18 +32,18 @@ body{
 }
 #timer{
     font-family: 'timer';
-    width: 60%;
+    width: auto;
+    height: 80px;
     padding: 5%;
-    font-size: 80px;
+    font-size: 30px;
     text-align:center;
-    position:fixed;
+    position:absolute;
     top: 50%;
-    left: 18%;
-    /*border: 5px solid red;*/
+    right: 0;
 }
 #thours,#tminutes,#tseconds,.tsep{
-    width: 125px;
-    height: 125px;
+    width: 50px;
+    height: 50px;
     background-color: white;
     color: royalblue;
     float: left;
@@ -58,7 +59,7 @@ body{
     height: 30px;
     position: absolute;
     bottom: 0;
-    right: 47%;
+    right: 35%;
     background-color: white;
     color:royalblue;
     /*border: 5px solid blueviolet;*/

@@ -65,4 +65,3 @@ function runtimer() {
     timer[1].innerHTML = time[1];
     timer[2].innerHTML = time[2];}
 }
-export {Current,runtimer,animate_sep};
