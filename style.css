@@ -1,0 +1,66 @@
+body{
+    color: whitesmoke;
+    background-color: royalblue;
+}
+@font-face{
+    font-family: 'timer';
+    src: url('font.ttf') format('truetype');
+}
+#currtimer{
+    font-family: 'timer';
+    width: 70%;
+    padding: 5%;
+    font-size: 80px;
+    text-align:center;
+    position:fixed;
+    top: 20%;
+    left: 18%;
+}
+#chours,#cminutes,#cseconds,.csep{
+    width: 125px;
+    height: 125px;
+    background-color: white;
+    color: royalblue;
+    float: left;
+    text-align: center;
+}
+.csep{
+    width: 20px;
+    background-color:  royalblue;
+    color:white;
+}
+#timer{
+    font-family: 'timer';
+    width: 60%;
+    padding: 5%;
+    font-size: 80px;
+    text-align:center;
+    position:fixed;
+    top: 50%;
+    left: 18%;
+    /*border: 5px solid red;*/
+}
+#thours,#tminutes,#tseconds,.tsep{
+    width: 125px;
+    height: 125px;
+    background-color: white;
+    color: royalblue;
+    float: left;
+    text-align: center;
+}
+.tsep{
+    width: 20px;
+    background-color:  royalblue;
+    color:white;
+}
+#tbtn{
+    width: 70px;
+    height: 30px;
+    position: absolute;
+    bottom: 0;
+    right: 47%;
+    background-color: white;
+    color:royalblue;
+    /*border: 5px solid blueviolet;*/
+    font-size: 20px;
+}
